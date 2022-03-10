@@ -1,0 +1,55 @@
+const data = {
+  products: [
+    {
+      name: 'Nike Slim shirt',
+      slug: 'nike-slim-shirt',
+      category: 'Shirts',
+      image: '/images/p1.jpeg' /* 679px x 829px */,
+      price: 120,
+      countInStock: 12,
+      brand: 'nike',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'Very high quality shirt',
+    },
+    {
+      name: 'Adidas Fit shirt',
+      slug: 'adidas-fit-shirt',
+      category: 'Shirts',
+      image: '/images/p2.jpeg' /* 679px x 829px */,
+      price: 250,
+      countInStock: 20,
+      brand: 'adidas',
+      rating: 4.7,
+      numReviews: 10,
+      description: 'Very high quality product',
+    },
+    {
+      name: 'Nike Slim Pant',
+      slug: 'nike-slim-pant',
+      category: 'Pants',
+      image: '/images/p3.jpeg' /* 679px x 829px */,
+      price: 25,
+      countInStock: 15,
+      brand: 'nike',
+      rating: 4.5,
+      numReviews: 15,
+      description: 'Very high quality product',
+    },
+    {
+      name: 'Adidas Fit Pant',
+      slug: 'adidas-fit-pant',
+      category: 'Pants',
+      image: '/images/p4.jpeg' /* 679px x 829px */,
+      price: 65,
+      countInStock: 5,
+      brand: 'adidas',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'Very high quality shirt',
+    },
+  ],
+};
+
+/* export enables the visibility of this data value to outside this file */
+export default data;
